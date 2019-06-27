@@ -37,10 +37,12 @@ https://github.com/IOT-DSA/docs/wiki/Update-Dart-SDK
 ```sh
 $ dart app.dart
 # Hello World!
+
+# Here’s an example of running a Dart file on the command line:
+$ dart --enable-asserts app.dart
 ```
 
-https://www.dart-china.org/t/topic/480
-
+https://www.dart-china.org/t/topic/480#heading--manual-install
 
 ## Flutter 1.5
 
