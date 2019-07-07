@@ -18,8 +18,8 @@ function load() {
     document.addEventListener("touchmove", touch, false);
     document.addEventListener("touchend", touch, false);
     function touch(event) {
-        var event = event || window.event;
-        var oInp = document.getElementById("inp");
+        let event = event || window.event;
+        let oInp = document.getElementById("inp");
         switch (event.type) {
             case "touchstart":
                 oInp.innerHTML = "Touch started (" + event.touches[0].clientX + "," + event.touches[0].clientY + ")";
@@ -28,7 +28,8 @@ function load() {
                 oInp.innerHTML = "<br>Touch end (" + event.changedTouches[0].clientX + "," + event.changedTouches[0].clientY + ")";
                 break;
             case "touchmove":
-                event.preventDefault(); oInp.innerHTML = "<br>Touch moved (" + event.touches[0].clientX + "," + event.touches[0].clientY + ")";
+                event.preventDefault();
+                oInp.innerHTML = "<br>Touch moved (" + event.touches[0].clientX + "," + event.touches[0].clientY + ")";
             break;
         }
     }
