@@ -2,7 +2,6 @@
     "Dart 2.x Template": {
         "prefix": "d2t",
         "body": [
-            "",
             "/**",
             " * ",
             " * @author xgqfrms",
@@ -15,7 +14,6 @@
             " * @link $5",
             " * ",
             " */",
-            "",
             "",
         ],
         "description": "Dart 2.x Template & code snippets!"
