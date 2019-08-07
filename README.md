@@ -67,7 +67,10 @@ https://pub.flutter-io.cn
 
 # windows & system env & DART_SDK
 DART_SDK
+# not work
 H:\Program Files\Dart-SDK\dart-sdk
+## OK
+H:\Program Files\Dart-SDK\dart-sdk\bin
 
 # windows & system env & JDK (Open JDK)
 JAVA_HOME

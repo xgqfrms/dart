@@ -4,6 +4,13 @@
 
 2. open shell & run file `dart filename.dart`
 
+```sh
+
+$ dart var-const-final-static-void.dart
+
+```
+
+
 
 https://dart.dev/guides/language/language-tour
 
@@ -38,7 +45,7 @@ $ dart bin/main.dart
 ```
 
 
-## AOT
+## AOT && `dart-sdk\bin`
 
 > H:\Program Files\Dart-SDK\dart-sdk\bin
 
