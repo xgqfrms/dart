@@ -184,7 +184,7 @@
             };
         },
         methods:{
-             ...mapActions({
+            ...mapActions({
                 getUserInfo: "mine/getUserInfo",
             }),
             submit(){
