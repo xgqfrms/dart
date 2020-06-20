@@ -1,12 +1,41 @@
-# dart
+# Dart
 
 > dart for flutter
 
-## Dart SDK install
+## Dart SDK
 
-> zh-Hans & Windows
+> dart 2.3.2
+> dart 2.8.4
+
+https://dart.dev/get-dart
+
+https://dart.dev/tools/sdk/archive
+
+https://dart.dev/tools/dart-vm
+
+https://github.com/IOT-DSA/docs/wiki/Update-Dart-SDK
+
+## macOS
 
 ```sh
+# install
+$ brew tap dart-lang/dart
+$ brew install dart
+
+$ brew upgrade dart
+```
+
+```sh
+$ brew info dart
+
+$ dart --version
+
+```
+
+## Windows
+
+```sh
+# install
 # windows & user env
 PUB_HOSTED_URL
 https://pub.flutter-io.cn
@@ -23,34 +52,7 @@ H:\JDK-12
 H:\Program Files\Dart-SDK\dart-sdk\bin
 %JAVA_HOME%\bin
 
-
 ```
-
-## dart 2.3.2
-
-https://dart.dev/get-dart
-
-> macOS
-
-```sh
-$ brew tap dart-lang/dart
-$ brew install dart
-
-$ brew upgrade dart
-```
-
-```sh
-$ brew info dart
-
-$ dart --version
-
-```
-
-https://dart.dev/tools/sdk/archive
-
-https://dart.dev/tools/dart-vm
-
-https://github.com/IOT-DSA/docs/wiki/Update-Dart-SDK
 
 ## 手动安装 Dart SDK
 
@@ -80,14 +82,15 @@ H:\JDK-12
 H:\Program Files\Dart-SDK\dart-sdk\bin
 %JAVA_HOME%\bin
 
-
 ```
+
+## test
 
 ```sh
 $ dart app.dart
 # Hello World!
 
-# Here’s an example of running a Dart file on the command line:
+# running a Dart file on the command line
 $ dart --enable-asserts app.dart
 ```
 
@@ -109,7 +112,9 @@ https://flutter.dev/docs/get-started/install/macos
 https://flutter.dev/docs/development/tools/sdk/releases?tab=macos
 
 
-## v1.7.x
+## 1.9.X
 
 
-***
+## 1.17.3 channel stable
+
+https://github.com/flutter/flutter.git
