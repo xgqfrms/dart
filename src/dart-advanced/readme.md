@@ -10,7 +10,7 @@ $ dart var-const-final-static-void.dart
 
 ```
 
-
+https://dart.dev/guides/language/language-tour#final-and-const
 
 https://dart.dev/guides/language/language-tour
 
