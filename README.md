@@ -2,11 +2,10 @@
 
 > dart for flutter
 
-## Dart SDK install
+## Dart SDK
 
 > dart 2.3.2
 > dart 2.8.4
-
 
 https://dart.dev/get-dart
 
@@ -19,6 +18,7 @@ https://github.com/IOT-DSA/docs/wiki/Update-Dart-SDK
 ## macOS
 
 ```sh
+# install
 $ brew tap dart-lang/dart
 $ brew install dart
 
@@ -35,6 +35,7 @@ $ dart --version
 ## Windows
 
 ```sh
+# install
 # windows & user env
 PUB_HOSTED_URL
 https://pub.flutter-io.cn
