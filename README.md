@@ -15,6 +15,14 @@ https://dart.dev/tools/dart-vm
 
 https://github.com/IOT-DSA/docs/wiki/Update-Dart-SDK
 
+## DartPad (Dart/Flutter)
+
+> REPL & Playground
+
+https://dartpad.dev/
+
+https://dartpad.dartlang.org/
+
 ## macOS
 
 ```sh
@@ -118,3 +126,8 @@ https://flutter.dev/docs/development/tools/sdk/releases?tab=macos
 ## 1.17.3 channel stable
 
 https://github.com/flutter/flutter.git
+
+
+## 1.17.5 channel stable
+
+https://github.com/flutter/flutter/releases
