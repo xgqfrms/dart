@@ -36,6 +36,16 @@ void main() {
   // dynamic nan = 0 / 0;
   dynamic nan = 0.0 / 0.0;
   print("nan = ${nan.isNaN}");
+  double neg = -12;
+  print("\nneg = ${neg.abs()}");
+  double float = 12.5;
+  print("float = ${float.round()}");
+  print("float = ${float.floor()}");
+  print("float = ${float.ceil()}");
+  double f = 3.1415926;
+  print("f = ${f.toInt()}");
+  int i = 8;
+  print("float = ${i.toDouble()}");
 }
 
 /*
@@ -50,6 +60,13 @@ rounding = 0
 even = true
 odd = true
 nan = true
+
+neg = 12.0
+float = 13
+float = 12
+float = 13
+f = 3
+float = 8.0
  */
 
 /*
@@ -64,4 +81,11 @@ rounding = 0
 even = true
 odd = true
 nan = true
+
+neg = 12.0
+float = 13
+float = 12
+float = 13
+f = 3
+float = 8.0
  */
