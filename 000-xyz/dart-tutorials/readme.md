@@ -129,3 +129,86 @@ final 的初始值必须是静态，但是可以动态变化，可以理解为�
 const 的初始值必须是静态，不可动态变化的
 
 
+## Dart 数据类型
+
+https://dart.dev/guides/language/type-system
+
+https://dart.dev/guides/language/language-tour#built-in-types
+
+
+```dart
+num
+int
+double
+
+String
+
+
+```
+
+https://dart.cn/guides/language/language-tour#built-in-types
+
+> Dart 内置类型
+
+```dart
+
+numbers
+strings
+booleans
+lists (也被称为 arrays)
+
+sets
+maps
+runes (用于在字符串中表示 Unicode 字符)
+
+symbols
+
+```
+
+https://api.dart.dev/stable/2.9.1/dart-core/dart-core-library.html
+
+
+```dart
+int meaningOfLife = 42;
+double valueOfPi  = 3.141592;
+bool visible      = true;
+
+String shakespeareQuote = "All the world's a stage, ...";
+
+StringBuffer moreShakespeare = new StringBuffer();
+moreShakespeare.write('And all the men and women ');
+moreShakespeare.write('merely players; ...');
+
+var numbers = new RegExp(r'\d+');
+
+List superheroes = [ 'Batman', 'Superman', 'Harry Potter' ];
+
+Set villains = new Set();
+villains.add('Joker');
+villains.addAll( ['Lex Luther', 'Voldemort'] );
+
+
+Map sidekicks = { 'Batman': 'Robin',
+                  'Superman': 'Lois Lane',
+                  'Harry Potter': 'Ron and Hermione' };
+
+DateTime now = new DateTime.now();
+DateTime berlinWallFell = new DateTime(1989, 11, 9);
+DateTime moonLanding = DateTime.parse("1969-07-20");
+
+Duration timeRemaining = new Duration(hours:56, minutes:14);
+
+Uri dartlang = Uri.parse('http://dartlang.org/');
+
+```
+
+http://www.dartlang.org/docs/dart-up-and-running/
+
+http://www.dartlang.org/docs/dart-up-and-running/contents/ch02.html#built-in-types
+
+https://www.dartlang.org/docs/dart-up-and-running/ch03.html#dartcore---numbers-collections-strings-and-more
+
+
+
+
+

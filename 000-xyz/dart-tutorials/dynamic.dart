@@ -12,13 +12,22 @@
  */
 
 void main() {
+  dynamic varibale = "xgqfrms";
+  print("varibale = ${varibale}");
+  varibale = 2020;
+  print("varibale = ${varibale}");
   // var name = "xgqfrms";
-  var name;
+  // var name;
+  String name;
+  print("name = ${name}");
+  // 默认值 null
   name = "xgqfrms";
-  print(typeof name);
+  print("Hello ${name}");
+  // name = 2020;
+  // print("Hello ${name}");
+  // print(typeof name);
   // print(name is dynamic);
   // Unnecessary type check, the result is always true.
-  print("Hello ${name}");
   // do something...
   // return null;
 }
@@ -26,5 +35,8 @@ void main() {
 /*
 
 使用var声明变量的同时未进行初始化，此变量的类型会被推断为 dynamic动态类型。
+
+varibale = xgqfrms
+varibale = 2020
 
  */
