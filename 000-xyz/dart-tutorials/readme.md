@@ -400,3 +400,20 @@ Imperative programming doesn’t necessarily describe what the program should ac
 
 命令式编程不一定描述程序应完成的任务，而是说明程序应如何完成。
 
+
+## Dart & Runes
+
+> 符文
+
+> Unicode UTF-16
+
+```dart
+var string = 'Dart 🎯';
+string.runes.toList();
+// [68, 97, 114, 116]
+
+```
+
+https://api.dart.dev/stable/2.9.1/dart-core/Runes-class.html
+
+https://api.dart.dev/stable/2.9.1/dart-core/String/runes.html
