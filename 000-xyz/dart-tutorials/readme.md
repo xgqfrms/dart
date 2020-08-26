@@ -326,7 +326,7 @@ ${var1 + var2}
 
 方法
 
-conatins(), subString()
+contains(), substring()
 
 startsWith(), endsWith()
 
@@ -356,3 +356,30 @@ void main() {
 ```
 
 https://dart.cn/guides/libraries/library-tour#strings-and-regular-expressions
+
+
+## list
+
+> array
+
+```dart
+
+```
+
+
+
+
+## imperative programming
+
+This style of programming is called imperative programming.
+
+这种编程样式称为命令式编程。
+
+It is essentially a programming paradigm wherein you write a set of instructions that execute in sequential order.
+
+从本质上讲，它是一种编程范例，其中您编写了一组按顺序执行的指令。
+
+Imperative programming doesn’t necessarily describe what the program should accomplish, rather it shows how the program should accomplish it.
+
+命令式编程不一定描述程序应完成的任务，而是说明程序应如何完成。
+
