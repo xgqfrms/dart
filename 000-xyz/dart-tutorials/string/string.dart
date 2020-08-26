@@ -38,6 +38,7 @@ void main() {
   // print("s1 * s2 = ${s1 * s2}");
   // ❌type 'String' is not a subtype of type 'int' of 'times'
   print("s1 * 3 = ${s1 * 3}");
+  // API: https://api.dart.dev/stable/2.9.1/dart-core/String/operator_minus.html
   // print("s1 - s2 = ${s1 - s2}");
   // ❌NoSuchMethodError: Class 'String' has no instance method '-'.
   print("s1 == s2 = ${s1 == s2}");

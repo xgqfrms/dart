@@ -306,9 +306,37 @@ void main() {
   print("raw_string = ${raw_string}");
 }
 
-+
+```
 
--
+```dart
+void main() {
+  String s = "string";
+  print("s = $s");
+  String replaceAll = "string string".replaceAll("s", "S");
+  print("replaceAll = $replaceAll");
+  String replaceFirst = "string string".replaceFirst("s", "s");
+  print("replaceFirst = $replaceFirst");
+  String replaceFirstMapped = "string string".replaceFirstMapped("s", (match) => null);
+  print("replaceFirstMapped = $replaceFirstMapped");
+  String replaceAllMapped = "string string".replaceAllMapped("s", (match) => null);
+  print("replaceAllMapped = $replaceAllMapped");
+  String replaceRange = "string string".replaceRange(0, 1, "S");
+  print("rreplaceRange = $replaceRange");
+}
+
+```
+
+> String operator
+
+https://api.dart.dev/stable/2.9.1/dart-core/String/operator_plus.html
+
+https://api.dart.dev/stable/2.9.1/dart-core/String/operator_multiply.html
+
+https://api.dart.dev/stable/2.9.1/dart-core/String/operator_equals.html
+
+https://api.dart.dev/stable/2.9.1/dart-core/String/operator_get.html
+
++
 
 *
 
@@ -338,22 +366,8 @@ trim(), trimLeft(), trimRight()
 
 split(), replace???()
 
-void main() {
-  String s = "string";
-  print("s = $s");
-  String replaceAll = "string string".replaceAll("s", "S");
-  print("replaceAll = $replaceAll");
-  String replaceFirst = "string string".replaceFirst("s", "s");
-  print("replaceFirst = $replaceFirst");
-  String replaceFirstMapped = "string string".replaceFirstMapped("s", (match) => null);
-  print("replaceFirstMapped = $replaceFirstMapped");
-  String replaceAllMapped = "string string".replaceAllMapped("s", (match) => null);
-  print("replaceAllMapped = $replaceAllMapped");
-  String replaceRange = "string string".replaceRange(0, 1, "S");
-  print("rreplaceRange = $replaceRange");
-}
+https://api.dart.dev/stable/2.9.1/dart-core/String-class.html#operators
 
-```
 
 https://dart.cn/guides/libraries/library-tour#strings-and-regular-expressions
 
@@ -412,7 +426,17 @@ var string = 'Dart 🎯';
 string.runes.toList();
 // [68, 97, 114, 116]
 
+void main() {
+  var string = "Dart🎯";
+  // var string = "Dart 🎯";
+  print("string = $string");
+  dynamic runes = string.runes.toList();
+  print("runes = $runes");
+}
+
 ```
+
+https://api.dart.dev/stable/2.9.1/dart-core/String-class.html
 
 https://api.dart.dev/stable/2.9.1/dart-core/Runes-class.html
 

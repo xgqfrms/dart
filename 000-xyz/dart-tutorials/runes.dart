@@ -12,15 +12,6 @@
  */
 
 void main() {
-  // dynamic d;
-  // var x = "";
-  // int i = 0;
-  // double f = 1.0;
-  // String s = "";
-  // print("x = x");
-  // print("i = i");
-  // print("f = f");
-  // print("s = s");
   var string = "Dart🎯";
   // var string = "Dart 🎯";
   print("string = $string");
