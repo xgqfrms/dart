@@ -254,3 +254,27 @@ if (key is num) {
 
 ```
 
+## math
+
+```dart
+~/ 取整
+
+% 取余
+
+/ 除
+
++
+
+-
+
+* 乘
+
+属性: isNaN, isEven, isOdd
+
+even 偶数
+
+odd 奇数
+
+方法: abs(), round(), floor(), ceil(), toInt(), toDouble()
+
+```
