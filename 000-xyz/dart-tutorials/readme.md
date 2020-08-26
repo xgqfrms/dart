@@ -137,11 +137,27 @@ https://dart.dev/guides/language/language-tour#built-in-types
 
 
 ```dart
+// Number
 num
+// An integer or floating-point number.
 int
 double
 
+// Boolean
+bool
+
 String
+// Dart 字符串是 UTF-16 编码的字符序列。可以使用单引号或者双引号来创建字符串
+
+List
+
+Map
+
+Set
+
+Runes
+
+Symbols
 
 
 ```
