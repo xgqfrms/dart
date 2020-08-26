@@ -278,3 +278,50 @@ odd 奇数
 方法: abs(), round(), floor(), ceil(), toInt(), toDouble()
 
 ```
+
+## String
+
+```dart
+
+void main() {
+  String single_quote = 'signle quote string';
+  print("single_quote = ${single_quote}");
+  String double_quote = "double quote string";
+  print("double_quote = ${double_quote}");
+  String signle_multi_lines = '''
+    signle
+    multi lines
+    multi lines string
+  ''';
+  print("signle_multi_lines = ${signle_multi_lines}");
+  String double_multi_lines = """
+    double
+    multi lines
+    multi lines string
+  """;
+  print("double_multi_lines = ${double_multi_lines}");
+  String backslash_n = "string line1\nstring line2\nstring line3";
+  print("backslash_n = ${backslash_n}");
+  String raw_string = r"string line1\nstring line2\nstring line3";
+  print("raw_string = ${raw_string}");
+}
+
++
+
+-
+
+*
+
+==
+
+[]
+
+${}
+
+$var
+
+${var1 + var2}
+
+```
+
+https://dart.cn/guides/libraries/library-tour#strings-and-regular-expressions
