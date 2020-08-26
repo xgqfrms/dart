@@ -14,9 +14,6 @@
 void main() {
   dynamic key = 123;
   key = "123";
-  // ??? print assert
-  assert(key == 123);
-  assert(key == "123");
   if (key is num) {
     print("type is number");
   } else if (key is String) {
@@ -32,6 +29,9 @@ void main() {
   //   print("type is unknown");
   // }
   print("key = ${key}");
+  // ??? print assert
+  assert(key == 123);
+  assert(key == "123");
   // var result = assert(key == 123);
   // print(assert(key == 123));
   // Error: `assert` can't be used as an expression.

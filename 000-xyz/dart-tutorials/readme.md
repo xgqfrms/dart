@@ -233,3 +233,24 @@ https://www.dartlang.org/docs/dart-up-and-running/ch03.html#dartcore---numbers-c
 2. command + F12 （F12这个需要按住fn）
 3. command + 7 ❓❌ 不好使
 
+
+## type checker
+
+https://stackoverflow.com/questions/7715948/how-to-perform-runtime-type-checking-in-dart
+
+https://stackoverflow.com/questions/54301730/dart-how-to-check-if-a-variable-type-is-string/54302255
+
+```dart
+// is
+dynamic key = 123;
+key = "123";
+if (key is num) {
+ print("type is number");
+} else if (key is String) {
+ print("type is string");
+} else {
+ print("type is unknown");
+}
+
+```
+
