@@ -6,6 +6,7 @@
 
 > dart 2.3.2
 > dart 2.8.4
+> dart 2.9.1 / Flutter 1.20
 
 https://dart.dev/get-dart
 

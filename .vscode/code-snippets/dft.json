@@ -1,8 +1,7 @@
 {
-  "Dart Template": {
-    "prefix": "dt",
+  "Dart for Flutter Template": {
+    "prefix": "dft",
     "body": [
-      "//\"use strict\";",
       "",
       "/**",
       " * ",
@@ -20,11 +19,12 @@
       "// void main() {",
       "main() {",
       "  print(\"Hello Dart! 🎯\");",
+      "  print(\"Hello Flutter! 🎯\");",
       "  // do something...",
       "  return void;",
       "}",
       ""
     ],
-    "description": "Dart Template & code snippets!"
+    "description": "Dart for Flutter Template & code snippets!"
   }
 }
