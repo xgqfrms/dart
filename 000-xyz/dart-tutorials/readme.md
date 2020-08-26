@@ -159,7 +159,6 @@ Runes
 
 Symbols
 
-
 ```
 
 https://dart.cn/guides/language/language-tour#built-in-types
@@ -226,5 +225,11 @@ https://www.dartlang.org/docs/dart-up-and-running/ch03.html#dartcore---numbers-c
 
 
 
+## 跳转到 Dart 源代码
 
+光标放到 Dart 关键字上面
+
+1. VS Code 右键，Go To Definition
+2. command + F12 （F12这个需要按住fn）
+3. command + 7 ❓❌ 不好使
 
