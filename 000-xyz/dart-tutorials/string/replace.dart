@@ -23,7 +23,7 @@ void main() {
   String replaceAllMapped = "string string".replaceAllMapped("s", (match) => null);
   print("replaceAllMapped = $replaceAllMapped");
   String replaceRange = "string string".replaceRange(0, 1, "S");
-  print("rreplaceRange = $replaceRange");
+  print("replaceRange = $replaceRange");
 }
 
 /*
@@ -33,27 +33,6 @@ replaceAll = String String
 replaceFirst = string string
 replaceFirstMapped = nulltring string
 replaceAllMapped = nulltring nulltring
-rreplaceRange = String string
-
- */
-
-/*
-
-
-属性 length， isEmpty, isNotEmpty
-
-方法
-
-conatins(), subString()
-
-startsWith(), endsWith()
-
-indexOf(), lastIndexOf()
-
-toLowerCase(), toUpperCase()
-
-trim(), trimLeft(), trimRight()
-
-split(), replace???()
+replaceRange = String string
 
  */
