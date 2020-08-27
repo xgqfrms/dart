@@ -479,3 +479,18 @@ void main() {
 }
 
 ```
+
+```dart
+[], length
+
+isEmpty, isNotEmpty
+
+keys, values, entries
+
+containsKey(), containsValue()
+
+remove()
+
+​forEach()
+
+```
