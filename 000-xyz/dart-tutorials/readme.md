@@ -225,13 +225,14 @@ https://www.dartlang.org/docs/dart-up-and-running/ch03.html#dartcore---numbers-c
 
 
 
-## 跳转到 Dart 源代码
+## VSCode 跳转到 Dart 源代码
 
-光标放到 Dart 关键字上面
+> 光标放到 Dart 关键字上面
 
 1. VS Code 右键，Go To Definition
 2. command + F12 （F12这个需要按住fn）
-3. command + 7 ❓❌ 不好使
+3. command + click 好使
+4. command + 7 ❓❌ 不好使
 
 
 ## type checker
@@ -397,7 +398,19 @@ void main() {
 
 ```
 
+[], length
 
+add(), insert()
+
+remove(), clear()
+
+indexOf(), lastIndexOf()
+
+sort(), sublist()
+
+shuffle(), asMap(),
+
+<!-- forEach() -->
 
 
 ## imperative programming
