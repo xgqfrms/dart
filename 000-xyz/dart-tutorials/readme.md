@@ -551,4 +551,76 @@ void main() {
 
 ```
 
+## operator
+
+```dart
+
+void main() {
+  int i = 0;
+  int ii = 0;
+  print("i = ${i++}, $i");
+  print("ii = ${++ii}, $ii");
+  print("\n");
+  double f = 1.0;
+  double ff = 1.0;
+  print("f = ${f++}, $f");
+  print("ff = ${++ff}, $ff");
+}
+
+
+```
+
+```dart
+void main() {
+  int i = 0;
+  int ii = 1;
+  double f = 1.0;
+  double ff = 2.0;
+  double fff = 3.0;
+  print("i == ii, ${i == ii}");
+  print("i != ii, ${i != ii}");
+  print("f <= ff, ${f <= ff}");
+  print("f < ff, ${f < ff}");
+  print("fff >= ff, ${fff >= ff}");
+  print("fff >= ff, ${fff > ff}");
+}
+
+
+```
+
+```dart
+
+void main() {
+  bool b = true;
+  print("b = ${b}");
+  print("b = ${!b}");
+  print("b = ${b && false}");
+  print("b = ${b || false}");
+}
+
+
+```
+
+
+
+
+```dart
+
+
+```
+
+```dart
+
+
+```
+
+```dart
+
+
+```
+
+
+
+
+
 
