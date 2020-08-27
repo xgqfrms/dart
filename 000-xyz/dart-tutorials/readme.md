@@ -494,3 +494,21 @@ remove()
 ​forEach()
 
 ```
+
+list.asMap
+
+```dart
+void main() {
+  dynamic list = [1, 2, 3, "str", true];
+  print("list = $list");
+  print("\n");
+  // const map = list.asMap();
+  // const 初始化 bug
+  // dynamic map = list.asMap();
+  // var map = list.asMap();
+  final map = list.asMap();
+  // list index == map key
+  print("map = $map");
+}
+
+```
