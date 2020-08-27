@@ -512,3 +512,43 @@ void main() {
 }
 
 ```
+
+## 泛型 🚀generic
+
+<!-- https://api.dart.dev/stable/2.9.1/dart-core/Generic-class.html -->
+
+https://dart.dev/guides/language/language-tour#generics
+
+https://api.dart.dev/stable/2.9.1/dart-core/Invocation/Invocation.genericMethod.html
+
+TypeScript
+
+https://www.typescriptlang.org/docs/handbook/generics.html
+
+https://stackoverflow.com/questions/59677862/how-to-create-objects-of-generic-types-in-flutter-dart
+
+```dart
+
+void main() {
+  dynamic d;
+  print("d default = $d");
+  print("\n");
+  d = 1;
+  print("d num = $d");
+  d = "str";
+  print("d string = $d");
+  d = true;
+  print("d bool = $d");
+  // 泛型 🚀generic
+  var list = new List<dynamic>();
+  print("\n");
+  print("list = $list");
+  list.add(1);
+  list.add('hello');
+  list.add(true);
+  print("list = $list");
+}
+
+```
+
+

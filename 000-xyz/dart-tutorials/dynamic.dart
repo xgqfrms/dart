@@ -28,8 +28,13 @@ void main() {
   // print(typeof name);
   // print(name is dynamic);
   // Unnecessary type check, the result is always true.
-  // do something...
-  // return null;
+  // 泛型 🚀generic
+  var list = new List<dynamic>();
+  print("list = $list");
+  list.add(1);
+  list.add('hello');
+  list.add(true);
+  print("list = $list");
 }
 
 /*
@@ -39,4 +44,7 @@ void main() {
 varibale = xgqfrms
 varibale = 2020
 
+
+list = []
+list = [1, hello, true]
  */
