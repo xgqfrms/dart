@@ -17,13 +17,19 @@ void main() {
   print("string = $string");
   dynamic runes = string.runes.toList();
   print("runes = $runes");
+  dynamic r = string.runes;
+  // dynamic r = "🎯".runes;
+  print("runes = $r");
 }
 
 
 /*
 
-string = Dart 🎯
-runes = [68, 97, 114, 116, 32, 127919]
+string = Dart🎯
+
+runes = [68, 97, 114, 116, 127919]
+
+runes = (68, 97, 114, 116, 127919)
 
  */
 
